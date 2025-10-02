@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/main"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtCanNang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập cân nặng (kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtChieuCao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chiều cao (cm)"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkChauA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tôi là người Châu Á"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnTinhBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Tính BMI"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả BMI sẽ hiển thị ở đây"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
