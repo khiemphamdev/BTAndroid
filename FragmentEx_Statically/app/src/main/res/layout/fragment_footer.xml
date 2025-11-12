@@ -52,7 +52,6 @@
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#FFF"
-        app:strokeWidth="3dp">
-    </com.google.android.material.button.MaterialButton>
+        app:strokeWidth="3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

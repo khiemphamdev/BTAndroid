@@ -1,7 +1,6 @@
 package clc65.phamgiakhiem.fragmentex_statically;
 
 
-
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

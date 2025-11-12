@@ -7,24 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/frameContent"
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="clc65.phamgiakhiem.fragmentex_statically.ContentFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/frameFooter"
+        app:layout_constraintBottom_toTopOf="@+id/footerfrag"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameFooter"
-        android:layout_width="409dp"
-        android:layout_height="80dp"
+    <fragment
+        android:id="@+id/footerfrag"
+        android:name="clc65.phamgiakhiem.fragmentex_statically.FooterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent" />
 
-    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
